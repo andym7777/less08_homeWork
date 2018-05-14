@@ -4,9 +4,9 @@ public class BankAccountMain {
 
 	public static void main(String[] args) {
 		BankAccount ba1 = new BankAccount("Make Nikols", 780000000, 530, "USD");
-		BankAccount ba2 = new BankAccount("Helen Carter", 780000000, 800, "USD");
-		BankAccount ba3 = new BankAccount("Jane Stone", 780000000, 350, "USD");
-		BankAccount ba4 = new BankAccount("John Berkovich", 780000000, 1200, "USD");
+		BankAccount ba2 = new BankAccount("Helen Carter", 780000001, 800, "USD");
+		BankAccount ba3 = new BankAccount("Jane Stone", 780000002, 350, "USD");
+		BankAccount ba4 = new BankAccount("John Berkovich", 780000003, 1200, "USD");
 		
 		Payment pay1 = new Payment("Mobile Phone", 120);
 		Payment pay2 = new Payment("Carpet", 185);
